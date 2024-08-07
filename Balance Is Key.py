@@ -40,7 +40,6 @@ def total_spending(request_spending, account_id:str, cat:str):
     for i in spending_transactions:
         if(i['category'] == cat):
             return (i['amount'])
-            continue
         
 
 def account_balance(request_spending, account_id : str):
